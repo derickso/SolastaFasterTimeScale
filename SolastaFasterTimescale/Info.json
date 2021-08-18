@@ -8,6 +8,6 @@
 	"LoadAfter": [ "SolastaModApi" ],
 	"AssemblyName": "SolastaFasterTimeScale.dll",
 	"EntryMethod": "SolastaFasterTimeScale.Main.Load",
-	"Repository": "",
+	"Repository": "https://github.com/derickso/SolastaFasterTimeScale",
 	"HomePage": ""
 }
