@@ -1,0 +1,9 @@
+C:\Games\Solasta Crown of the Magister\Mods\SolastaFasterTimeScale\Info.json
+C:\Games\Solasta Crown of the Magister\Mods\SolastaFasterTimeScale\SolastaFasterTimeScale.dll
+C:\Games\Solasta Crown of the Magister\Mods\SolastaFasterTimeScale\SolastaFasterTimeScale.pdb
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.csproj.AssemblyReference.cache
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.AssemblyInfoInputs.cache
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.AssemblyInfo.cs
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.csproj.CoreCompileInputs.cache
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.dll
+C:\repos\SolastaFasterTimeScale\SolastaFasterTimeScale\obj\Debug Install\SolastaFasterTimeScale.pdb
