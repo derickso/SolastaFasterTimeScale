@@ -1,0 +1,13 @@
+{
+	"Id": "SolastaFasterTimeScale",
+	"DisplayName": "SolastaFasterTimeScale",
+	"Author": "myztikrice",
+	"Version": "1.0.0",
+	"ManagerVersion": "0.23.4",
+	"Requirements": [ "SolastaModApi" ],
+	"LoadAfter": [ "SolastaModApi" ],
+	"AssemblyName": "SolastaFasterTimeScale.dll",
+	"EntryMethod": "SolastaFasterTimeScale.Main.Load",
+	"Repository": "",
+	"HomePage": ""
+}
