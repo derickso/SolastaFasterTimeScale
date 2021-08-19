@@ -12,11 +12,15 @@ namespace SolastaFasterTimeScale.Viewers
 
         public static float CustomTimeScale = 1.5f;
 
+        public static bool PermanentSpeedUp = false;
+
         public void OnGUI(UnityModManager.ModEntry modEntry)
         {
             if (Main.Mod == null) return;
 
             GUILayout.Label("Speed Up Battle speed", UnityModManager.UI.bold, GUILayout.ExpandWidth(false));
+
+            PermanentSpeedUp = GUILayout.Toggle(PermanentSpeedUp, "Permanent Speed Up Battle");
 
             GUILayout.BeginHorizontal();
             GUILayout.Label("Timescale", GUILayout.ExpandWidth(false));

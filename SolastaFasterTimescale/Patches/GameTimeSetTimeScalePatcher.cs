@@ -10,8 +10,15 @@ namespace SolastaFasterTimeScale.Patches
         {
             static bool Prefix(ref float ___timeScale, ref bool ___fasterTimeMode)
             {
-                Time.timeScale = ___timeScale * (___fasterTimeMode ? Viewers.ModSettingsViewer.CustomTimeScale : 1f);
-
+                if (Viewers.ModSettingsViewer.PermanentSpeedUp)
+                {
+                    Time.timeScale = ___timeScale * Viewers.ModSettingsViewer.CustomTimeScale;
+                }
+                else
+                {
+                    Time.timeScale = ___timeScale * (___fasterTimeMode ? Viewers.ModSettingsViewer.CustomTimeScale : 1f);
+                }
+                
                 return false;
             }
         }
